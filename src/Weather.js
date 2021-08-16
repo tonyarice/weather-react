@@ -12,8 +12,8 @@ export default function Weather(props) {
     axios.get(apiUrl).then(handleResponse);
     return (
         <Loader
-        type="TailSpin"
-        color="#00BFFF"
+        type="Oval"
+        color="red"
         height={100}
         width={100}
         timeout={3000} //3 secs
